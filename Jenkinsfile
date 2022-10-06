@@ -33,7 +33,7 @@ pipeline {
                      sh 'mvn package'
                    }
 	     
-     }//stage build
+     }//stage build 
 	    
 	 stage('SonarQube analysis'){
 	when {
